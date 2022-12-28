@@ -8,7 +8,7 @@
 }
 
 .title{
-  font-size: 9.5vh;
+  font-size: 85px;
   color: white;
   animation: flipTitle 1.5s;
 }
@@ -76,4 +76,19 @@
 .main span{
   margin-bottom: 16px;
   font-weight: bold;
+}
+
+@media (max-width: 620px){
+  .title{
+    font-size: 60px;
+  }
+
+  .main h2{
+    font-size: 28px;
+  }
+
+  .main{
+    width: 80%;
+    min-height: 250px;
+  }
 }
